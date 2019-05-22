@@ -1,0 +1,2 @@
+docker build -t gsohos/tfgpujupyter -f Dockerfile .
+docker run -u $(id -u):$(id -g) -p 8888:8888/tcp --runtime=nvidia -it -v /home/george/github/stock2vec:/s2v -t gsohos/tfgpujupyter
