@@ -6,7 +6,7 @@ from tensorflow.python.ops import init_ops
 from tensorflow.python.ops import math_ops
 from tensorflow.python.ops import nn_ops
 from tensorflow.contrib import rnn
-from tensorflow.contrib.rnn.python.ops import core_rnn_cell_impl
+from tensorflow.contrib.rnn.python.ops import core_rnn_cell as core_rnn_cell_impl
 
 _BIAS_VARIABLE_NAME = "bias"
 _WEIGHTS_VARIABLE_NAME = "kernel"

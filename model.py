@@ -1,7 +1,7 @@
 import inspect
 import tensorflow as tf
 from tensorflow.contrib import rnn
-from tensorflow.contrib.rnn.python.ops.rnn_cell import _linear
+from tensorflow.contrib.rnn.python.ops.core_rnn_cell import _linear
 from utils import SwitchableDropoutWrapper
 from ran_cell import RANCell
 
